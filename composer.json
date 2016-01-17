@@ -1,0 +1,14 @@
+{
+    "name": "abhijeetpandey/slim-responses",
+    "description": "Overridden SLIM reponses",
+    "require": {
+        "slim/slim": "~3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abhijeet Pandey",
+            "email": "abhijeet.k.pandey@gmail.com"
+        }
+    ]
+}
