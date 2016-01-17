@@ -10,5 +10,9 @@
             "name": "Abhijeet Pandey",
             "email": "abhijeet.k.pandey@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+
 }

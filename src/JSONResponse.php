@@ -15,12 +15,3 @@ class JSONResponse extends Response{
         $this->withHeader('Content-type', 'application/json');
     }
 }
-
-class JSONAppResponse extends JSONResponse{
-    public function write($dump){
-        $data = $dump['data'];
-        $appStatus = $dump['status'];
-        $body = json_encode(array('status'=>$appStatus,'result'=> array('data'=> $data)));
-        parent::write($body);
-    }
-}
